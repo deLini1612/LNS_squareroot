@@ -7,7 +7,7 @@ generic (
     IN_WIDTH      : positive := 64;
     INDEX_WIDTH   : positive := 6;
     OUT_WIDTH     : positive := 32;
-	 NUM_SEG			: positive := 3
+    NUM_SEG			: positive := 3
     -- OUT_WIDTH = IN_WIDTH/2
     );
 port (
