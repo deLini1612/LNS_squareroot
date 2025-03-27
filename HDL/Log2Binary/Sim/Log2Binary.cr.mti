@@ -1,0 +1,41 @@
+/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity log_to_bin_tb
+-- Compiling architecture a1 of log_to_bin_tb
+-- Loading entity log_to_bin
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity priority_encoder
+-- Compiling architecture a1 of priority_encoder
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity log_to_bin
+-- Compiling architecture a1 of log_to_bin
+-- Loading entity barrel_shifter
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity barrel_shifter
+-- Compiling architecture a1 of barrel_shifter
+
+} {} {}}

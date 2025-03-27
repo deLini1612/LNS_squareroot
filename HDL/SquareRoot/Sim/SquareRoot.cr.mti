@@ -1,0 +1,150 @@
+/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity square_root_tb
+-- Compiling architecture a1 of square_root_tb
+-- Loading entity square_root
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity square_root_reg
+-- Compiling architecture add_reg_arc of square_root_reg
+-- Loading entity square_root_int
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity square_root_int_tb
+-- Compiling architecture a1 of square_root_int_tb
+-- Loading entity square_root_int
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity square_root_int_all_tb
+-- Compiling architecture a1 of square_root_int_all_tb
+-- Loading entity square_root_int
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity barrel_shifter
+-- Compiling architecture a1 of barrel_shifter
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity square_root
+-- Compiling architecture a1 of square_root
+-- Loading entity bin_to_log
+-- Loading entity correction_root_8seg
+-- Loading entity correction_root_16seg
+-- Loading package MATH_REAL
+-- Loading entity log_to_bin
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity square_root_int
+-- Compiling architecture a1 of square_root_int
+-- Loading entity bin_to_log
+-- Loading entity correction_root_8seg
+-- Loading entity correction_root_16seg
+-- Loading package MATH_REAL
+-- Loading entity log_to_bin
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity priority_encoder
+-- Compiling architecture a1 of priority_encoder
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/Binary2Log/bin_to_log.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/Binary2Log/bin_to_log.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bin_to_log
+-- Compiling architecture a1 of bin_to_log
+-- Loading entity priority_encoder
+-- Loading entity barrel_shifter
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity square_combine_tb
+-- Compiling architecture a1 of square_combine_tb
+-- Loading entity square_root
+-- Loading entity square_root_int
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity correction_root_16seg
+-- Compiling architecture b64 of correction_root_16seg
+-- Compiling architecture b32 of correction_root_16seg
+-- Loading entity correction_root_16seg
+-- Compiling architecture b16 of correction_root_16seg
+-- Loading entity correction_root_16seg
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity correction_root_8seg
+-- Compiling architecture b16 of correction_root_8seg
+-- Compiling architecture b32 of correction_root_8seg
+-- Loading entity correction_root_8seg
+-- Compiling architecture b64 of correction_root_8seg
+-- Loading entity correction_root_8seg
+
+} {} {}} /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity log_to_bin
+-- Compiling architecture a1 of log_to_bin
+-- Loading entity barrel_shifter
+
+} {} {}}
