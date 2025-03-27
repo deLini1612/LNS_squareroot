@@ -6,7 +6,8 @@ entity square_root_reg is
 generic (
     IN_WIDTH      : positive := 64;
     INDEX_WIDTH   : positive := 6;
-    OUT_WIDTH     : positive := 32
+    OUT_WIDTH     : positive := 32;
+	 NUM_SEG			: positive := 3
     -- OUT_WIDTH = IN_WIDTH/2
     );
 port (
@@ -25,7 +26,8 @@ begin
             generic map (
                 IN_WIDTH => IN_WIDTH,
                 OUT_WIDTH => OUT_WIDTH,
-                INDEX_WIDTH => INDEX_WIDTH
+                INDEX_WIDTH => INDEX_WIDTH,
+					 NUM_SEG => NUM_SEG
             )
             port map (
                 A           =>  A_Q,
