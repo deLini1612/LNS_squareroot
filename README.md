@@ -5,20 +5,18 @@
 ---
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Overall](#overall)
-  - [Proposed Architecture](#proposed-architecture)
-  - [Basic Principle](#basic-principle)
-  - [Approximation Method for LNS \<-\> BNS Conversion](#approximation-method-for-lns---bns-conversion)
-    - [Conversion Algorithms](#conversion-algorithms)
-- [Error Analysis and Proposed Correction Terms](#error-analysis-and-proposed-correction-terms)
-  - [Error Expression](#error-expression)
-  - [Correction Terms](#correction-terms)
-  - [Comparison of Errors with Different Correction Schemes](#comparison-of-errors-with-different-correction-schemes)
-- [Hardware Implementation and Results](#hardware-implementation-and-results)
-  - [Error Analysis](#error-analysis)
-  - [Synthesis Results](#synthesis-results)
-- [Future Work](#future-work)
+- [1. Overall](#overall)
+  - [1.1. Proposed Architecture](#proposed-architecture)
+  - [1.2. Basic Principle](#basic-principle)
+  - [1.3. Approximation Method for LNS \<-\> BNS Conversion](#approximation-method-for-lns---bns-conversion)
+- [2. Error Analysis and Proposed Correction Terms](#error-analysis-and-proposed-correction-terms)
+  - [2.1. Error Expression](#error-expression)
+  - [2.2. Correction Terms](#correction-terms)
+  - [2.3. Comparison of Errors with Different Correction Schemes](#comparison-of-errors-with-different-correction-schemes)
+- [3. Hardware Implementation and Results](#hardware-implementation-and-results)
+  - [3.1. Error Analysis](#error-analysis)
+  - [3.2. Synthesis Results](#synthesis-results)
+- [4. Future Work](#future-work)
 
 --- 
 ## Overall
