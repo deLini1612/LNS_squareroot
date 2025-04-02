@@ -1,0 +1,18 @@
+when "00" => correction_term <= "0000000";
+when "01" => correction_term <= "0000000";
+when "10" => correction_term <= "0001010";
+when "11" => correction_term <= "0000001";
+when others => correction_term <= "0000000";
+
+when "00" => correction_term <= "0000000";
+when "01" => correction_term <= "0000010";
+when "10" => correction_term <= "0000101";
+when "11" => correction_term <= "0001000";
+when others => correction_term <= "0000000";
+
+when "00" => correction_term <= "0000111";
+when "01" => correction_term <= "0000011";
+when "10" => correction_term <= "0000001";
+when "11" => correction_term <= "0000000";
+when others => correction_term <= "0000000";
+

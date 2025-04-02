@@ -37,8 +37,56 @@ begin
 
     
     k_le_2 <= '1' when unsigned(A(IN_WIDTH - 1 downto 2)) = 0 else '0';
+        
+    GenCorTerm64_4 : if (IN_WIDTH = 64) and (NUM_SEG = 2) generate
+        CorTerm64_8 : entity work.correction_root_4seg(b64)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
 
-    GenCorTerm64 : if (IN_WIDTH = 64) and (NUM_SEG = 3) generate
+    GenCorTerm32_4 : if (IN_WIDTH = 32) and (NUM_SEG = 2) generate
+        CorTerm32_8 : entity work.correction_root_4seg(b32)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
+
+    GenCorTerm16_4 : if (IN_WIDTH = 16) and (NUM_SEG = 2) generate
+        CorTerm16_8 : entity work.correction_root_4seg(b16)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
+
+    GenCorTerm8_4 : if (IN_WIDTH < 16) and (NUM_SEG = 2) generate
+        CorTerm16_8 : entity work.correction_root_4seg(b8)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
+
+    GenCorTerm64_8 : if (IN_WIDTH = 64) and (NUM_SEG = 3) generate
         CorTerm64_8 : entity work.correction_root_8seg(b64)
         generic map (
             FRAC_WIDTH => IN_WIDTH - 1
@@ -50,7 +98,7 @@ begin
             result => correction);
     end generate;
 
-    GenCorTerm32 : if (IN_WIDTH = 32) and (NUM_SEG = 3) generate
+    GenCorTerm32_8 : if (IN_WIDTH = 32) and (NUM_SEG = 3) generate
         CorTerm32_8 : entity work.correction_root_8seg(b32)
         generic map (
             FRAC_WIDTH => IN_WIDTH - 1
@@ -62,8 +110,20 @@ begin
             result => correction);
     end generate;
 
-    GenCorTerm16 : if (IN_WIDTH < 32) and (NUM_SEG = 3) generate
+    GenCorTerm16_8 : if (IN_WIDTH = 16) and (NUM_SEG = 3) generate
         CorTerm16_8 : entity work.correction_root_8seg(b16)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
+
+    GenCorTerm8_8 : if (IN_WIDTH < 16) and (NUM_SEG = 3) generate
+        CorTerm16_8 : entity work.correction_root_8seg(b8)
         generic map (
             FRAC_WIDTH => IN_WIDTH - 1
         )
@@ -98,8 +158,20 @@ begin
             result => correction);
     end generate;
 
-    GenCorTerm16_16 : if (IN_WIDTH < 32) and (NUM_SEG = 4) generate
+    GenCorTerm16_16 : if (IN_WIDTH = 16) and (NUM_SEG = 4) generate
         CorTerm16_16 : entity work.correction_root_16seg(b16)
+        generic map (
+            FRAC_WIDTH => IN_WIDTH - 1
+        )
+        port map (
+            x => log_A(IN_WIDTH - 2 downto IN_WIDTH - 1 - NUM_SEG),
+            k_mod_2  => log_A(IN_WIDTH - 1),
+            k_le_2 => k_le_2,
+            result => correction);
+    end generate;
+    
+    GenCorTerm8_16 : if (IN_WIDTH < 16) and (NUM_SEG = 4) generate
+        CorTerm16_16 : entity work.correction_root_16seg(b8)
         generic map (
             FRAC_WIDTH => IN_WIDTH - 1
         )

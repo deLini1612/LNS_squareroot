@@ -1,0 +1,30 @@
+when "000" => correction_term <= "0000000";
+when "001" => correction_term <= "0000000";
+when "010" => correction_term <= "0001010";
+when "011" => correction_term <= "0000001";
+when "100" => correction_term <= "0000000";
+when "101" => correction_term <= "0000000";
+when "110" => correction_term <= "0000000";
+when "111" => correction_term <= "0000000";
+when others => correction_term <= "0000000";
+
+when "000" => correction_term <= "0000000";
+when "001" => correction_term <= "0000000";
+when "010" => correction_term <= "0000001";
+when "011" => correction_term <= "0000011";
+when "100" => correction_term <= "0000100";
+when "101" => correction_term <= "0000110";
+when "110" => correction_term <= "0001000";
+when "111" => correction_term <= "0001001";
+when others => correction_term <= "0000000";
+
+when "000" => correction_term <= "0001001";
+when "001" => correction_term <= "0000110";
+when "010" => correction_term <= "0000100";
+when "011" => correction_term <= "0000010";
+when "100" => correction_term <= "0000001";
+when "101" => correction_term <= "0000000";
+when "110" => correction_term <= "0000000";
+when "111" => correction_term <= "0000000";
+when others => correction_term <= "0000000";
+

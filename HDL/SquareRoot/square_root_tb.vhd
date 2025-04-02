@@ -11,7 +11,7 @@ entity square_root_tb is
 end square_root_tb;
 
 architecture a1 of square_root_tb is
-    constant IN_WIDTH      : integer := 8;
+    constant IN_WIDTH      : integer := 32;
     constant NUM_SEG       : integer := 4;
     constant INDEX_WIDTH   : integer := integer(ceil(log2(real(IN_WIDTH))));
     constant OUT_WIDTH     : integer := integer(IN_WIDTH/2 + IN_WIDTH - 1);
@@ -19,7 +19,23 @@ architecture a1 of square_root_tb is
     signal A        : std_logic_vector(IN_WIDTH - 1 downto 0) := (others => '0');
     signal result   : std_logic_vector(OUT_WIDTH - 1 downto 0);
 
-    file output_file : text open write_mode is "output_results_4seg_8bit_fix.txt";
+    file output_file : text open write_mode is "output_results_4s_32b_fix.txt";
+
+    function std_logic_vector_to_string(val: std_logic_vector) return string is
+        variable result : string(1 to val'length);
+    begin
+        for i in val'range loop
+            if val(i) = '1' then
+                result(val'length - i) := '1';
+            elsif val(i) = '0' then
+                result(val'length - i) := '0';
+            else
+                result(val'length - i) := 'X'; -- Handle 'X', 'U', 'Z', etc.
+            end if;
+        end loop;
+        return result;
+    end function;
+
 begin
     uut: entity work.square_root(a1)
         generic map (
@@ -39,7 +55,7 @@ begin
     begin
         A <= std_logic_vector(to_unsigned(0, IN_WIDTH));
         wait for 10 ns;
-        write(line_buf, to_integer(unsigned(result)));
+        write(line_buf, std_logic_vector_to_string(result));
         writeline(output_file, line_buf);
 
         TestCase: while i /= to_unsigned(0, IN_WIDTH)  loop
@@ -47,10 +63,13 @@ begin
 
             wait for 10 ns;
 
-            write(line_buf, to_integer(unsigned(result)));
+            write(line_buf, std_logic_vector_to_string(result));
             writeline(output_file, line_buf);
 	
 	    i := i + 1;
+        if (i = to_unsigned(2**22, IN_WIDTH) and (IN_WIDTH > 16))then
+            exit;  -- Breaks if input >= 2**23 (so much data)
+        end if;
         end loop;
         wait;
     end process;

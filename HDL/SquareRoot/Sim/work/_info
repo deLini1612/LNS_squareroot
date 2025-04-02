@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/Sim
 T_opt
-!s110 1743068550
-V@A91>S8FUU51VMRWal<g01
+!s110 1743472951
+VMnUKm=Y^n=Y5nLFIEC4R40
 04 14 2 work square_root_tb a1 1
-=5-2c9811777da7-67e51d85-ea00f-a0e9
+=21-2c9811777da7-67eb4937-86ca3-38c12
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
@@ -27,16 +27,16 @@ R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1743069202
-VNPU4GI3;SGOIaH8VS0Cni3
+!s110 1743473565
+VbSk52jLnN8i7lN2GV3f690
 04 22 2 work square_root_int_all_tb a1 1
-=5-2c9811777da7-67e52012-ef0d-a477
+=10-2c9811777da7-67eb4b9d-c1395-3c9ce
 R1
 R2
 n@_opt2
 R3
-R0
 Ebarrel_shifter
 Z4 w1742812173
 Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
@@ -51,9 +51,9 @@ VBiNe?b1P<Gf?`bEGTOD0U1
 !s100 J64c>Mje>N3GRcYla9X`n2
 Z11 OL;C;10.7c;67
 32
-Z12 !s110 1743022423
+Z12 !s110 1743471086
 !i10b 1
-Z13 !s108 1743022423.000000
+Z13 !s108 1743471086.000000
 Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd|
 Z15 !s107 /home/delini/Documents/LNS_squareroot/HDL/BarrelShifter/barrel_shifter.vhd|
 !i113 0
@@ -122,7 +122,7 @@ R23
 R16
 R17
 Ecorrection_root_16seg
-Z26 w1743024568
+Z26 w1743466697
 R5
 R6
 R7
@@ -135,49 +135,11 @@ VI>j]GPO`NgT]JK:@PLh0?0
 !s100 S6FKiNDPI1[G=fKHUgYiF2
 R11
 32
-Z29 !s110 1743024593
+R12
 !i10b 1
-Z30 !s108 1743024593.000000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd|
-Z32 !s107 /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd|
-!i113 0
-R16
-R17
-Ab16
-R5
-R6
-R7
-Z33 DEx4 work 21 correction_root_16seg 0 22 I>j]GPO`NgT]JK:@PLh0?0
-l145
-L142
-VlcOX][Ig8>BW4oT2:^b3j3
-!s100 9N>]5jJ@mgoXT^kK9]R^j0
-R11
-32
-R29
-!i10b 1
-R30
-R31
-R32
-!i113 0
-R16
-R17
-Ab32
-R5
-R6
-R7
-R33
-l82
-L79
-VQAjVeW4aaK>cP973ER>EA1
-!s100 6GB[O>==BOW_cozF`k@W70
-R11
-32
-R29
-!i10b 1
-R30
-R31
-R32
+R13
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd|
+Z30 !s107 /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_16seg.vhd|
 !i113 0
 R16
 R17
@@ -185,29 +147,184 @@ Ab64
 R5
 R6
 R7
-R33
-l19
-L16
-Vk2zSk8mW[cZL<<X[kC3N`2
-!s100 GnmT;Ph:N];fI3]>Q[nGc3
+Z31 DEx4 work 21 correction_root_16seg 0 22 I>j]GPO`NgT]JK:@PLh0?0
+l208
+L205
+V]iLP7<[lDBdd^YSJOmb6I3
+!s100 h667KL:R:hOJ8RT[1ojlQ2
 R11
 32
-R29
+R12
 !i10b 1
+R13
+R29
 R30
-R31
-R32
 !i113 0
 R16
 R17
-Ecorrection_root_8seg
-Z34 w1742994464
+Ab32
+R5
+R6
+R7
+R31
+l145
+L142
+V?:Rfo987D<>XUg^Re`8fD1
+!s100 9E`:R;DcnN<i=dJcYFc3H1
+R11
+32
+R12
+!i10b 1
+R13
+R29
+R30
+!i113 0
+R16
+R17
+Ab16
+R5
+R6
+R7
+R31
+l82
+L79
+VhW86^CnzPc>QgBzWAcgLS3
+!s100 ]@PSQCbDIFh9_hWHYRFjz3
+R11
+32
+R12
+!i10b 1
+R13
+R29
+R30
+!i113 0
+R16
+R17
+Ab8
+R5
+R6
+R7
+R31
+l19
+L16
+VHIeV9GG^gYFkVU[9_h^X72
+!s100 CVg?]_oGPbn>zh=V=hPIj0
+R11
+32
+R12
+!i10b 1
+R13
+R29
+R30
+!i113 0
+R16
+R17
+Ecorrection_root_4seg
+Z32 w1743466151
 R5
 R6
 R7
 R8
-Z35 8/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd
-Z36 F/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd
+Z33 8/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_4seg.vhd
+Z34 F/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_4seg.vhd
+l0
+L5
+V=CDW:N3CN4`m0=l^kUDiP3
+!s100 e[1[7Q7C^[i;S>oIEgY6d1
+R11
+32
+R12
+!i10b 1
+R13
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_4seg.vhd|
+Z36 !s107 /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_4seg.vhd|
+!i113 0
+R16
+R17
+Ab64
+R5
+R6
+R7
+Z37 DEx4 work 20 correction_root_4seg 0 22 =CDW:N3CN4`m0=l^kUDiP3
+l136
+L133
+VDVkSB@cP[=M63OP^J=Dgk1
+!s100 hJEQVGi`Ja`6@`OWeWR080
+R11
+32
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Ab32
+R5
+R6
+R7
+R37
+l97
+L94
+VVET^AR:=f<EBK`D`D`eBz0
+!s100 ;>EOfW4@APAEoO;WiF@?12
+R11
+32
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Ab16
+R5
+R6
+R7
+R37
+l58
+L55
+Ve60K3S62Ih0mo8FEJ1GkU2
+!s100 fWl;=>V<Ob`5z@iFbfaMC1
+R11
+32
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Ab8
+R5
+R6
+R7
+R37
+l19
+L16
+VkanMgQ>FY=UFLY^M4SBU`2
+!s100 inFo<MANLfFa0?49[bBoP2
+R11
+32
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Ecorrection_root_8seg
+Z38 w1743466454
+R5
+R6
+R7
+R8
+Z39 8/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd
+Z40 F/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd
 l0
 L5
 VOKCJ2<<S9JZ8M>EzFkGE]0
@@ -217,8 +334,8 @@ R11
 R12
 !i10b 1
 R13
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd|
-Z38 !s107 /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd|
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd|
+Z42 !s107 /home/delini/Documents/LNS_squareroot/HDL/CorrectionTerm/correction_root_8seg.vhd|
 !i113 0
 R16
 R17
@@ -226,18 +343,18 @@ Ab64
 R5
 R6
 R7
-Z39 DEx4 work 20 correction_root_8seg 0 22 OKCJ2<<S9JZ8M>EzFkGE]0
-l113
-L110
-VPmXk6C^aRGj5^F5>VaMMF1
-!s100 ]i9AHmZR0i5Qcfaoo=mk53
+Z43 DEx4 work 20 correction_root_8seg 0 22 OKCJ2<<S9JZ8M>EzFkGE]0
+l160
+L157
+VNQEV3HEDeEP27fmnV^:0f1
+!s100 PHnEZYm0j<a6MSEH8IFBb3
 R11
 32
 R12
 !i10b 1
 R13
-R37
-R38
+R41
+R42
 !i113 0
 R16
 R17
@@ -245,18 +362,18 @@ Ab32
 R5
 R6
 R7
-R39
-l66
-L63
-V:6?WTGcEze>RD=A^478RC0
-!s100 9@1Z>4JDK:F7j]_LjRC643
+R43
+l113
+L110
+VOcUkcQi>S_5_JNP;60Xl=2
+!s100 `?f[O2VHKfTR6A`?P@;la2
 R11
 32
 R12
 !i10b 1
 R13
-R37
-R38
+R41
+R42
 !i113 0
 R16
 R17
@@ -264,73 +381,92 @@ Ab16
 R5
 R6
 R7
-R39
-l19
-L16
-VScZd442O?4C`WZ=YSojn31
-!s100 4YL0P2?[aA5eJf]d2XHg53
+R43
+l66
+L63
+VN1oX]8a5Mz6zCi<e^2S8c0
+!s100 GTnYlj;@K6FG_glJJE>3z1
 R11
 32
 R12
 !i10b 1
 R13
-R37
-R38
+R41
+R42
+!i113 0
+R16
+R17
+Ab8
+R5
+R6
+R7
+R43
+l19
+L16
+VPKlPQzRCGhM2jSO0lO>`^3
+!s100 ef5o`zV0miQY=o=8jf_Ua1
+R11
+32
+R12
+!i10b 1
+R13
+R41
+R42
 !i113 0
 R16
 R17
 Elog_to_bin
-Z40 w1743023031
-Z41 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z44 w1743023031
+Z45 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R5
 R6
 R7
 R8
-Z42 8/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
-Z43 F/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
+Z46 8/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
+Z47 F/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd
 l0
 L8
 Vk;:T@A47<f[Qm1YDnC;8L1
 !s100 GOP7A:QA23N=HVdEO35?E0
 R11
 32
-Z44 !s110 1743023037
+R12
 !i10b 1
-Z45 !s108 1743023037.000000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd|
-Z47 !s107 /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd|
+R13
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd|
+Z49 !s107 /home/delini/Documents/LNS_squareroot/HDL/Log2Binary/log_to_bin.vhd|
 !i113 0
 R16
 R17
 Aa1
 R18
-R41
+R45
 R5
 R6
 R7
-Z48 DEx4 work 10 log_to_bin 0 22 k;:T@A47<f[Qm1YDnC;8L1
+Z50 DEx4 work 10 log_to_bin 0 22 k;:T@A47<f[Qm1YDnC;8L1
 l32
 L22
 VT=k17NT4[9_Bl91h5`dmX3
 !s100 XSIOM=1JA3]cbhm;VhEUe0
 R11
 32
-R44
+R12
 !i10b 1
-R45
-R46
-R47
+R13
+R48
+R49
 !i113 0
 R16
 R17
 Epriority_encoder
-Z49 w1742772686
+Z51 w1742772686
 R5
 R6
 R7
 R8
-Z50 8/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
-Z51 F/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
+Z52 8/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
+Z53 F/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd
 l0
 L7
 VVcTU>hcQg@b`]:0H?V93c3
@@ -340,8 +476,8 @@ R11
 R12
 !i10b 1
 R13
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd|
-Z53 !s107 /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd|
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd|
+Z55 !s107 /home/delini/Documents/LNS_squareroot/HDL/PriorityEncoder/priority_encoder.vhd|
 !i113 0
 R16
 R17
@@ -359,29 +495,29 @@ R11
 R12
 !i10b 1
 R13
-R52
-R53
+R54
+R55
 !i113 0
 R16
 R17
 Esquare_combine_tb
-Z54 w1742996229
-R41
+Z56 w1742996229
+R45
 R5
 R6
 R7
 R8
-Z55 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd
-Z56 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd
+Z57 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd
+Z58 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd
 l0
 L10
 V9=;;bUJkPhKTCVHTWiU2o0
 !s100 X5NWBQdKN5Y]`^=5Ub?5>1
 R11
 32
-Z57 !s110 1743022431
+R12
 !i10b 1
-Z58 !s108 1743022431.000000
+R13
 Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd|
 Z60 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_combine_tb.vhd|
 !i113 0
@@ -390,7 +526,7 @@ R17
 Aa1
 Z61 DEx4 work 15 square_root_int 0 22 JZ1Tfe_g5zgMoeTUeL[6C2
 Z62 DEx4 work 11 square_root 0 22 Ch]E4zaceBDlaCXIFT3fn1
-R41
+R45
 R5
 R6
 R7
@@ -401,16 +537,16 @@ VB4SH]ZVC=ecVH;;RWCRcY1
 !s100 ^OZ009jZ_F300>Pf7`T0M3
 R11
 32
-R57
+R12
 !i10b 1
-R58
+R13
 R59
 R60
 !i113 0
 R16
 R17
 Esquare_root
-Z63 w1743007113
+Z63 w1743467361
 R5
 R6
 R7
@@ -432,10 +568,11 @@ Z67 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root.vhd|
 R16
 R17
 Aa1
-R41
-DEx4 work 10 log_to_bin 0 22 `ik:P`TL^FMdz[Z1ND;M_2
-R33
-R39
+R45
+R50
+R31
+R43
+R37
 R25
 R5
 R6
@@ -443,8 +580,8 @@ R7
 R62
 l26
 L19
-V<D6f@]d<Q?gO1G@4<_FcB1
-!s100 >>Lf?1Cz]G]fj2T`?lRi53
+VhD:UKg7DLhP;WCPhm;LBQ0
+!s100 0aie`i``;N;eDT`i@ePYH1
 R11
 32
 R12
@@ -456,7 +593,7 @@ R67
 R16
 R17
 Esquare_root_int
-Z68 w1743069121
+Z68 w1743467196
 R5
 R6
 R7
@@ -469,19 +606,20 @@ VJZ1Tfe_g5zgMoeTUeL[6C2
 !s100 ^Vk4nnUFcOAScZI5__P`J2
 R11
 32
-Z71 !s110 1743069134
+R12
 !i10b 1
-Z72 !s108 1743069134.000000
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd|
-Z74 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd|
+R13
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd|
+Z72 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int.vhd|
 !i113 0
 R16
 R17
 Aa1
-R41
-R48
-R33
-R39
+R45
+R50
+R31
+R43
+R37
 R25
 R5
 R6
@@ -489,88 +627,88 @@ R7
 R61
 l28
 L19
-VTHiMShhJdR?i^[J`BkSP_0
-!s100 C8WDn;_ZQY[XoG4:jmPlR1
+V1i7:e04T>[U4HjTdFFK[h3
+!s100 1io<LEid8LWm7C3jo3VNo1
 R11
 32
-R71
+R12
 !i10b 1
+R13
+R71
 R72
-R73
-R74
 !i113 0
 R16
 R17
 Esquare_root_int_all_tb
-Z75 w1743069286
-R41
+Z73 w1743473560
+R45
 R5
 R6
 R7
 R8
-Z76 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd
-Z77 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd
+Z74 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd
+Z75 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd
 l0
 L10
 VB;@UkWcXW=_0[SI=QizL^2
 !s100 C;kj^F]^9oKoe;1ioL1<_0
 R11
 32
-Z78 !s110 1743069292
+Z76 !s110 1743473563
 !i10b 1
-Z79 !s108 1743069292.000000
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd|
-Z81 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd|
+Z77 !s108 1743473563.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd|
+Z79 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_all_tb.vhd|
 !i113 0
 R16
 R17
 Aa1
 R61
-R41
+R45
 R5
 R6
 R7
 DEx4 work 22 square_root_int_all_tb 0 22 B;@UkWcXW=_0[SI=QizL^2
-l23
+l39
 L13
-VKeb:D`PL6TAW<<o?k_>Ib1
-!s100 g73l<O[1_MogEhJeP]ZFE2
+VGO]LD9Qe@6eR3O4GhaVIQ2
+!s100 l0:B8IWUS@?XD9CKCQcmg0
 R11
 32
-R78
+R76
 !i10b 1
+R77
+R78
 R79
-R80
-R81
 !i113 0
 R16
 R17
 Esquare_root_int_tb
-Z82 w1743070023
-R41
+Z80 w1743465380
+R45
 R5
 R6
 R7
 R8
-Z83 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd
-Z84 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd
+Z81 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd
+Z82 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd
 l0
 L10
 V^_^QgEnV6Jg?^<D_XeiTj3
 !s100 iLD[YIOToF7?UZfOdl<lB2
 R11
 32
-Z85 !s110 1743070026
+R12
 !i10b 1
-Z86 !s108 1743070026.000000
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd|
-Z88 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd|
+R13
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd|
+Z84 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_int_tb.vhd|
 !i113 0
 R16
 R17
 Aa1
 R61
-R41
+R45
 R5
 R6
 R7
@@ -581,33 +719,33 @@ VL[kh`>4DW24VQm>2J<oUG1
 !s100 e<=IcZbV4SN8m_6dl9=aZ1
 R11
 32
-R85
+R12
 !i10b 1
-R86
-R87
-R88
+R13
+R83
+R84
 !i113 0
 R16
 R17
 Esquare_root_reg
-Z89 w1742993632
+Z85 w1743232850
 R5
 R6
 R7
 R8
-Z90 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd
-Z91 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd
+Z86 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd
+Z87 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd
 l0
 L5
-V@]PD;86ROen1]XKhBgD:53
-!s100 D0<CM?5EES8=mM;Kn3C850
+VnfVMod3:McGjC_0VbHI5>1
+!s100 =1DZ7f3Vj2oSTUH=9RYP62
 R11
 32
 R12
 !i10b 1
 R13
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd|
-Z93 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd|
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd|
+Z89 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_reg.vhd|
 !i113 0
 R16
 R17
@@ -616,62 +754,62 @@ R61
 R5
 R6
 R7
-DEx4 work 15 square_root_reg 0 22 @]PD;86ROen1]XKhBgD:53
-l22
-L19
-VBBZ^Xk1XY>DWRlLfW0f2j1
-!s100 Y2<LnfgL=oWN?<AESY3FC3
+DEx4 work 15 square_root_reg 0 22 nfVMod3:McGjC_0VbHI5>1
+l23
+L20
+VJdK27V]0hQQeGLZmVej<;3
+!s100 Y3lJ`JHLGj[@zSS;g6HkL2
 R11
 32
 R12
 !i10b 1
 R13
-R92
-R93
+R88
+R89
 !i113 0
 R16
 R17
 Esquare_root_tb
-Z94 w1743069105
-R41
+Z90 w1743472945
+R45
 R5
 R6
 R7
 R8
-Z95 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd
-Z96 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd
+Z91 8/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd
+Z92 F/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd
 l0
 L10
 Va^S7]E:jO2o[X=k5W^BX52
 !s100 Xl5VMGF2MOPDi3?Y54IKe2
 R11
 32
-Z97 !s110 1743069137
+Z93 !s110 1743472949
 !i10b 1
-Z98 !s108 1743069137.000000
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd|
-Z100 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd|
+Z94 !s108 1743472949.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd|
+Z96 !s107 /home/delini/Documents/LNS_squareroot/HDL/SquareRoot/square_root_tb.vhd|
 !i113 0
 R16
 R17
 Aa1
 R62
-R41
+R45
 R5
 R6
 R7
 DEx4 work 14 square_root_tb 0 22 a^S7]E:jO2o[X=k5W^BX52
-l23
+l39
 L13
-Via3lglWT5UHd^8>3VHhjY3
-!s100 zB1BBa8WWj6:TIbb4XR<N1
+VD2OoodQSgU9zLmQ3^4cWA1
+!s100 h[XLWOIfCfEWS8AWKX7CQ0
 R11
 32
-R97
+R93
 !i10b 1
-R98
-R99
-R100
+R94
+R95
+R96
 !i113 0
 R16
 R17
